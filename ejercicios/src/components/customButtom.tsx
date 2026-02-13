@@ -31,9 +31,11 @@ container: {
     borderWidth: 2,
     borderRadius: 10,
     paddingVertical: 15,
-    alignItems: "center",
     marginVertical: 8,
-    justifyContent: "flex-start"
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center"
+
 },
 text: {
     color: variant === "primary" ? "white": "blue",

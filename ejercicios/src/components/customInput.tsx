@@ -24,6 +24,7 @@ export default function CustomInput({placeholder, value, onChange, typeInput}: C
         <TextInput
         style={styles.input}
         placeholder={placeholder}
+        value={value.toString()}
         onChangeText={handleChange}
         keyboardType={typeInput === 'number' ? 'numeric' : 'default'}
         />
@@ -42,6 +43,8 @@ input: {
     alignItems: "center",
     padding: 10,
     borderRadius: 5,
+    alignSelf: "center"
+
 },
 
 });
